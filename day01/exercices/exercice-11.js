@@ -18,3 +18,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let price = 350;
+
+if (price > 500) {
+    price *= 0.90;
+    console.log("Coût final:",price,"MAD, Livraison: Gratuite");
+} else if (price > 200) {
+    console.log("Coût final:",price,"MAD, Livraison: Gratuite");
+} else {
+    console.log("Coût final:",price,"MAD, Livraison: Pas Gratuite");
+}
