@@ -18,3 +18,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let compteur = 0;
+compteur++;
+compteur++;
+compteur++;
+console.log(compteur);
