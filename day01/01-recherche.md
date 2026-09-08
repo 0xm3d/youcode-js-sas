@@ -44,6 +44,8 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+string, number, boolean, null, undefined, symbol, bigint
+
 ---
 
 ### Question 03
@@ -56,6 +58,7 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+=> it's considered as historical error because null normally is a premative data type and the output shows it as an object
 ---
 
 ### Question 04
@@ -68,6 +71,8 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+=> == : compares two values despite their data type for example it can compare two numbers even if one of them is inside double quotes 
+=> === : more strict it can compare two values taking in consideratin data types
 ---
 
 ### Question 05
@@ -80,6 +85,7 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+=> our code will show error
 ---
 
 ### Question 06
@@ -88,6 +94,7 @@ the differences between let, var, and const are :
 
 - [ ] J'ai recherché et compris la notion.
 
+=> we call it concatenation. it change the type of the number into a string then concatenate the two values
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
@@ -104,6 +111,8 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+=> we use the operator % to calculate the remainder of a division of two numbers and the most famous classical use is to see if a number is odd or even for example (7 % 2)
+
 ---
 
 ### Question 08
@@ -116,6 +125,9 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+&& : requares both conditions to be true to do a specific touch
+|| : requare only on of the conditions to be true 
+
 ---
 
 ### Question 09
@@ -127,6 +139,7 @@ the differences between let, var, and const are :
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+=> it is possible to use switch instead of if/else. we use it in the cases where we need too many conditions. it's more practical
 
 ---
 
@@ -140,6 +153,7 @@ the differences between let, var, and const are :
 
 > À compléter avec mes propres mots.
 
+=> it is a value that treated as false in conditions (false, 0, "")
 
 ## ✅ Validation de la recherche
 
