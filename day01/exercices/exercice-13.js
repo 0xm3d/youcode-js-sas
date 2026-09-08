@@ -18,3 +18,24 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let nombre1 = 10;
+let nombre2 = 5;
+let operateur = "*";
+
+switch (operateur) {
+    case "+": 
+        console.log(nombre1 + nombre2);
+        break;
+    case "-": 
+        console.log(nombre1 - nombre2);
+        break;
+    case "*": 
+        console.log(nombre1 * nombre2);
+        break;
+    case "/": 
+        console.log(nombre1 / nombre2);
+        break;
+    default:
+        console.log("ERORR!")
+}
