@@ -19,9 +19,9 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
-let estAdmin = true;
-let estModerateur = true;
-let motDEPasseValide = true;
+const estAdmin = true;
+const estModerateur = true;
+const motDEPasseValide = true;
 
 if (motDEPasseValide == true && (estAdmin || estModerateur == true)) {
     console.log("Accès Accordé");
