@@ -19,11 +19,11 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
-let estAdmin = false;
+let estAdmin = true;
 let estModerateur = true;
 let motDEPasseValide = true;
 
-if (motDEPasseValide && (estAdmin || estModerateur)) {
+if (motDEPasseValide == true && (estAdmin || estModerateur == true)) {
     console.log("Accès Accordé");
 } else {
     console.log("incorrect");
