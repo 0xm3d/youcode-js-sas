@@ -17,3 +17,4 @@
 // TODO: écris ta solution ici.
 
 let note = 14;
+console.log(note>=10 ? "Reussi" : "Echoue");
