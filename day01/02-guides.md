@@ -32,9 +32,9 @@ Imaginez que vous avez un verre rempli d'eau (a) et un verre rempli de jus (b). 
 
 ### ✅ Vérification
 
-- [ ] J'ai essayé avant d'ouvrir les indices.
-- [ ] Mon fichier s'exécute sans erreur.
-- [ ] Je peux expliquer chaque étape.
+- [X] J'ai essayé avant d'ouvrir les indices.
+- [X] Mon fichier s'exécute sans erreur.
+- [X] Je peux expliquer chaque étape.
 
 
 ---
@@ -65,9 +65,9 @@ L'opérateur `typeof` permet de connaître le type. Pour convertir une chaîne e
 
 ### ✅ Vérification
 
-- [ ] J'ai essayé avant d'ouvrir les indices.
-- [ ] Mon fichier s'exécute sans erreur.
-- [ ] Je peux expliquer chaque étape.
+- [X] J'ai essayé avant d'ouvrir les indices.
+- [X] Mon fichier s'exécute sans erreur.
+- [X] Je peux expliquer chaque étape.
 
 
 ---
@@ -98,12 +98,12 @@ La structure classique pour un choix binaire est `if (condition) { ... } else { 
 
 ### ✅ Vérification
 
-- [ ] J'ai essayé avant d'ouvrir les indices.
-- [ ] Mon fichier s'exécute sans erreur.
-- [ ] Je peux expliquer chaque étape.
+- [X] J'ai essayé avant d'ouvrir les indices.
+- [X] Mon fichier s'exécute sans erreur.
+- [X] Je peux expliquer chaque étape.
 
 
 ## ✅ Fin de l'étape
 
-- [ ] Les trois fichiers guidés contiennent ma propre solution.
-- [ ] Je peux expliquer les notions utilisées sans lire la démarche.
+- [X] Les trois fichiers guidés contiennent ma propre solution.
+- [X] Je peux expliquer les notions utilisées sans lire la démarche.

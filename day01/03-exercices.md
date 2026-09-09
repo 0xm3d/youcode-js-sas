@@ -58,10 +58,10 @@ node day01/exercices/exercice-01.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -86,10 +86,10 @@ node day01/exercices/exercice-02.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -118,10 +118,10 @@ node day01/exercices/exercice-03.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -147,10 +147,10 @@ node day01/exercices/exercice-04.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -179,10 +179,10 @@ node day01/exercices/exercice-05.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -211,10 +211,10 @@ node day01/exercices/exercice-06.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -243,10 +243,10 @@ node day01/exercices/exercice-07.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 
 ---
@@ -275,10 +275,10 @@ node day01/exercices/exercice-08.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -307,10 +307,10 @@ node day01/exercices/exercice-09.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -340,10 +340,10 @@ node day01/exercices/exercice-10.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -372,10 +372,10 @@ node day01/exercices/exercice-11.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
@@ -404,10 +404,10 @@ node day01/exercices/exercice-12.js
 
 #### ✅ Terminé lorsque
 
-- [ ] Le marqueur `TODO` a été remplacé par mon code.
-- [ ] Le programme s'exécute sans erreur.
-- [ ] Le résultat obtenu respecte la mission.
-- [ ] Je peux expliquer ma solution.
+- [X] Le marqueur `TODO` a été remplacé par mon code.
+- [X] Le programme s'exécute sans erreur.
+- [X] Le résultat obtenu respecte la mission.
+- [X] Je peux expliquer ma solution.
 
 ---
 
