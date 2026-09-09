@@ -19,7 +19,7 @@
 
 > Quelle est la différence fondamentale entre `let`, `const` et `var` en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -38,7 +38,7 @@ the differences between let, var, and const are :
 
 > Quels sont les 7 types primitifs de données en JavaScript ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -52,7 +52,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Que signifie `typeof null` en JavaScript, et pourquoi est-ce considéré comme une erreur historique ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -65,7 +65,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Quelle est la différence entre l'opérateur d'égalité souple `==` et l'opérateur d'égalité stricte `===` ? Lequel faut-il privilégier ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -79,7 +79,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Que se passe-t-il si j'essaie de changer la valeur d'une variable déclarée avec `const` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -92,7 +92,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Comment JavaScript gère-t-il l'addition entre un nombre et une chaîne de caractères (ex: `5 + "5"`) ? Comment appelle-t-on ce phénomène ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 => we call it concatenation. it change the type of the number into a string then concatenate the two values
 **Ma réponse :**
@@ -105,7 +105,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > À quoi sert l'opérateur modulo `%` et donnez un cas d'usage classique.
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -119,7 +119,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Quelle est la différence entre `&&` (ET logique) et `||` (OU logique) dans une condition ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -134,7 +134,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Est-il possible d'utiliser une condition `switch` à la place d'une série de `if / else if` ? Dans quel cas est-ce préférable ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -147,7 +147,7 @@ string, number, boolean, null, undefined, symbol, bigint
 
 > Qu'est-ce qu'une valeur "falsy" en JavaScript ? Citez 3 exemples.
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
@@ -157,5 +157,5 @@ string, number, boolean, null, undefined, symbol, bigint
 
 ## ✅ Validation de la recherche
 
-- [ ] Je peux expliquer au moins trois réponses sans lire mes notes.
-- [ ] J'ai noté les notions que je dois encore clarifier.
+- [X] Je peux expliquer au moins trois réponses sans lire mes notes.
+- [X] J'ai noté les notions que je dois encore clarifier.
