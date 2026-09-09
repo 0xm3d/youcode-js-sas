@@ -17,3 +17,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+for(let a = 1; a <= 5; a++) {
+    let line = "";
+    for(let b = 1; b <= a; b++) {
+        line += "*";
+    }
+    console.log(line);
+} 
