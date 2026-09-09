@@ -19,11 +19,13 @@
 
 > Quelle est la différence d'usage principale entre une boucle `for` et une boucle `while` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+
+we use for loops when we know the exact number of iterations we want to do, and it has additional settings. while (while) loop can be used when we don't know the exact number of iterations we want to do.
 
 ---
 
@@ -31,35 +33,39 @@
 
 > À quoi sert la boucle `do...while` et en quoi diffère-t-elle de `while` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
 
+we use do while loop when we want to excute a block of code at least once before checking the conditons. and that what makes it deffirent from while 
 ---
 
 ### Question 03
 
 > Que se passe-t-il si vous oubliez d'incrémenter ou de modifier la condition d'arrêt dans une boucle `while` ? Comment appelle-t-on ce problème ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
 
+this make our loop run forever untill we kill the procces. and it called infinite loop.
 ---
 
 ### Question 04
 
 > À quoi sert le mot-clé `break` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+
+the keyword break can be used to tell my loop to stop when it reaches a specific value.
 
 ---
 
@@ -67,11 +73,13 @@
 
 > À quoi sert le mot-clé `continue` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+
+the keyword continue helps us when when we reach the selected value to skip it and move the the next one.
 
 ---
 
@@ -79,11 +87,13 @@
 
 > Dans la structure `for(initialisation; condition; incrémentation)`, dans quel ordre exact ces trois parties sont-elles exécutées ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+
+the program starts with the initialisation then it checks the condition then excute the code then comes the incrementation.
 
 ---
 
@@ -91,11 +101,13 @@
 
 > Est-il possible de déclarer la variable d'initialisation en dehors de la boucle `for` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
 > À compléter avec mes propres mots.
+
+yes we can declare the and give it a value out of the for loop. but it should respect the order in come before the loop.
 
 ---
 
