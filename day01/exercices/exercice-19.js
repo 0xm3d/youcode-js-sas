@@ -25,7 +25,7 @@ let isGuest = true;
 let cartValue = 150;
 let isBanned = false;
 
-if (!isBanned && (hasAccount || (isGuest || cartValue > 100))) {
+if (!isBanned && (hasAccount || (isGuest && cartValue > 100))) {
     console.log("Commande validee");
 }else {
     console.log("command pas validee");
