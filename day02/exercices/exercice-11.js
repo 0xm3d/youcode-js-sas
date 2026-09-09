@@ -18,3 +18,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let a = 2, result = 1;
+for (let i = 0; i < 10; i++) {
+    result *= a;
+}
+console.log(result);
