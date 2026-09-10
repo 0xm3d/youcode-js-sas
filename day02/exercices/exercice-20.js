@@ -15,3 +15,16 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+for (let i = 100; i < 1000; i++) {
+    let num = String(i);
+    let a , b, c;
+    a = num[0]
+    b = num[1]
+    c = num[2]
+    a = Number(a), b = Number(b), c = Number(c);
+        if (i == ((a ** 3) + (b ** 3) + (c ** 3))) 
+            console.log(i)
+}
+
