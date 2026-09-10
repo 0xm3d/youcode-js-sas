@@ -18,3 +18,16 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let number = 15;
+let steps = 0;
+
+while (number != 1) {
+    if (number % 2 == 0) {
+        number = number / 2
+    } else {
+        number = number * 3 + 1
+    }
+    steps +=1;
+}
+console.log(steps);
