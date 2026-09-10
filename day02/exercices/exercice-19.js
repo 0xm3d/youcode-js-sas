@@ -16,3 +16,14 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+for (let i = 1; i<= 8; i++) {
+    let line = "";
+    for (let j = 1; j <= 8; j++) {
+        if ((i + j) % 2 == 0)
+            line += " "
+        else 
+            line += "#"
+    }
+    console.log(line)
+}
