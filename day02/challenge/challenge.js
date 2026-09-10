@@ -22,3 +22,28 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+let codeSecret = 739;
+let temp = codeSecret;
+let a, b, c;
+
+a = temp % 10;
+temp = Math.trunc(temp / 10);
+b = temp % 10;
+temp = Math.trunc(temp / 10);
+c = temp % 10;
+
+let d, e, f;
+let essais = 0;
+
+for (d = 0; d < 10; d++) {
+    for (e = 0; e < 10; e++) {
+        for (f = 0; f < 10; f++) {
+            essais++;
+
+            if (d == c && e == b && f == a) {
+                console.log(`Code trouvé : ${d} ${e} ${f} après ${essais} essais`);
+            }
+        }
+    }
+}
