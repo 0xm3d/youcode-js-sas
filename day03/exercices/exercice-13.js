@@ -21,7 +21,7 @@ function genererMotDePasse(longueur) {
     for (let i = 0; i < longueur; i++) {
         let nombre = Math.floor(Math.random() * 10);
 
-        if (nombre < 3) {
+        if (nombre < 5) {
             motDePasse += "A";
         } else {
             motDePasse += nombre;
@@ -31,4 +31,4 @@ function genererMotDePasse(longueur) {
     return motDePasse;
 }
 
-console.log(genererMotDePasse(6));
+console.log(genererMotDePasse(10));

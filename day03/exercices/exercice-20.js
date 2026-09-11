@@ -14,4 +14,29 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+const cache = {}; // to store the previous value
+
+function longCalculation(number) {
+ 
+    // if I gave my function the same number as I did before it will return that the number already found then print it
+    if (cache[number] !== undefined) {
+        console.log("Result found in cache!");
+        return cache[number];
+    }
+    // if my I give my function a the number for the first time it will do the calculation then store it in cache
+    console.log("Doing the long calculation"); // telling me that my func in running
+
+    let result = number * number;
+
+    cache[number] = result; // store the long of the given number into cach
+
+    return result;
+}
+
+console.log(longCalculation(5));
+console.log(longCalculation(5)); 
+console.log(longCalculation(10)); 
+console.log(longCalculation(10)); 
+console.log(longCalculation(5));

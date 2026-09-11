@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+function alarme(message, secondes) {
+    setTimeout(() => console.log(message), secondes * 1000)
+}
+alarme("hi m3d", 10)
+

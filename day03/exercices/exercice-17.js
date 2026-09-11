@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function extrairePrixEtConvertir(chaineBrute) {
+    let prix;
+    prix = chaineBrute.trim()
+    prix = prix.replace("$", "")
+    prix = Number(prix);
+    return prix
+}
+
+console.log(extrairePrixEtConvertir(" 12.43  $"))
