@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+function test() {
+    let a = 1;
+}
+console.log(a)
