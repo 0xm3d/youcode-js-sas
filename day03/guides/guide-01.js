@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+function saluer(name) {
+    return name
+}
+console.log("Bonjour,",saluer("med"));
