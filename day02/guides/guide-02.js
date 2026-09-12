@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let n = 100
+let total = 0
+while(n > 1) {
+    n /= 2
+    total += 1
+}
+console.log(total)
