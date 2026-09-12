@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function minAndmax(numbers) {
+    let max = 0;
+    let min = 0;
+    for(let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > max) 
+            max = numbers[i]
+        if (numbers[i] < min)
+            min = numbers[i]
+    }
+    console.log(`${max} is the greatest number in your array, and ${min} is the smallest number in your array.`)
+}
+minAndmax([12, 44, 0, 12, 45, 15])
