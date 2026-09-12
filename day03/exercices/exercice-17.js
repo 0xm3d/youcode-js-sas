@@ -17,9 +17,13 @@
 function extrairePrixEtConvertir(chaineBrute) {
     let prix;
     prix = chaineBrute.trim()
+    prix = prix.replace("Prix:", "")
     prix = prix.replace("$", "")
     prix = Number(prix);
+     if (isNaN(prix)) {
+        return null;
+    }
     return prix
 }
 
-console.log(extrairePrixEtConvertir(" 12.43  $"))
+console.log(extrairePrixEtConvertir("Prix: 12.43  $"))
