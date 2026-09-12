@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function evenNums(numbers) {
+    const newArray = []
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 == 0)
+            newArray.push(numbers[i])
+    }
+    console.log(newArray)
+}
+evenNums([12, 3, 5, 9, 22, 4, 6, 21, 8])
