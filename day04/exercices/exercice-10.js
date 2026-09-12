@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const mois = ["Jan", "Fev", "MARS_EN_TROP", "Avril"]
+mois.splice(2, 1)
+console.log(mois)
