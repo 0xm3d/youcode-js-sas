@@ -9,4 +9,5 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+const addition = (a, b) => a + b;
+console.log(addition(12, 43))
