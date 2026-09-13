@@ -13,5 +13,19 @@
 'use strict';
 
 // 1. Identifie les données nécessaires.
+
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function compterApparitions(mots) {
+    const compteurs = {};
+    for (const mot of mots) {
+        if (compteurs[mot] === undefined) {
+            compteurs[mot] = 1;
+        } else {
+            compteurs[mot]++;
+        }
+    }
+    console.log(compteurs);
+}
+const mots = ["pomme", "banane", "pomme", "orange", "banane", "pomme"];
+compterApparitions(mots);
