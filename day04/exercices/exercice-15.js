@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const array1 = [1, 3, 5]
+const array2 = [2, 4, 6]
+const array3 = []
+let i = 0;
+let j = 0;
+while (i < array1.length && j < array2.length) {
+    if (array1[i] <= array2[j]) {
+        array3.push(array1[i])
+        i++
+    }
+    else {
+        array3.push(array2[j])
+        j++
+    }
+}
+console.log(array3)
+
