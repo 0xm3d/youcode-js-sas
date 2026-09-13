@@ -10,8 +10,26 @@
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
  * ▶️ Commande : node day04/exercices/exercice-19.js
  */
-'use strict';
+"use strict";
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const numbers = [10, 20, 30, 40, 45, 50, 60];
+function binarySearch(array, target) {
+  let start = 0;
+  let end = array.length - 1;
+  while (start <= end) {
+    let middle = Math.floor((start + end) / 2);
+    if (array[middle] === target) {
+      return middle;
+    }
+    if (array[middle] < target) {
+      start = middle + 1;
+    } else {
+      end = middle - 1;
+    }
+  }
+  return -1;
+}
+console.log(binarySearch(numbers, 45));
