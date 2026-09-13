@@ -15,3 +15,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function sontEgaux(tab1, tab2) {
+    if (tab1.length != tab2.length) {
+        return "the two arrays are not equal!"
+    }
+    for(let i = 0; i < tab1.length; i++) {
+        if (tab1[i] != tab2[i]) {
+            return "the two arrays are not equal!"
+        }
+    }
+    return "the two arrays are equal"
+}
+console.log(sontEgaux([1, 3, 55, 8, 0, 33], [1, 3, 55, 8, 0, 33]))
+console.log(sontEgaux([1, 3, 8, 0, 33], [1, 3, 55, 8, 0, 33]))
+console.log(sontEgaux([1, 3, 111, 8, 21, 33], [1, 3, 55, 8, 0, 33]))
