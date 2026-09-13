@@ -14,4 +14,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const nums = [1, 2, 3];
+let element = nums.splice(nums.length - 1, 1)[0];
+nums.splice(0, 0, element);
+console.log(nums);
