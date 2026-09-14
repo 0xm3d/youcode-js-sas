@@ -19,4 +19,34 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+const panier = [101, 105, 101, 102, 105]
+function ajouterAuPanier(id) {
+    panier.push(id)
+}
+function retierDuPanier(id) {
+    for(let i = 0; i < panier.length; i++) {
+        if (panier[i] == id) {
+            panier.splice(i, 1)
+            break
+        }
+    }
+}
+function aficherQuantites() {
+    const compteurs = {}
+    for (const mot of panier) {
+        if (compteurs[mot] === undefined) {
+            compteurs[mot] = 1
+        } else {
+            compteurs[mot]++
+        }
+    }
+    return compteurs
+}
+
+console.log(panier)
+retierDuPanier(101)
+ajouterAuPanier(200)
+console.log(panier)
+ajouterAuPanier(44)
+console.log(aficherQuantites(panier))
