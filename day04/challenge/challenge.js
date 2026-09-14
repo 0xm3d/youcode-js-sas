@@ -23,30 +23,35 @@
 const panier = [101, 105, 101, 102, 105]
 function ajouterAuPanier(id) {
     panier.push(id)
+    return panier
 }
 function retierDuPanier(id) {
-    for(let i = 0; i < panier.length; i++) {
-        if (panier[i] == id) {
+    for(let i = panier.length -1; i >= 0; i--) {
+        if (panier[i] == id)
             panier.splice(i, 1)
-            break
-        }
     }
+    return panier
 }
-function aficherQuantites() {
+function afficherQuantites(panier) {
     const compteurs = {}
-    for (const mot of panier) {
-        if (compteurs[mot] === undefined) {
-            compteurs[mot] = 1
+    for (const article of panier) {
+        if (compteurs[article] === undefined) {
+            compteurs[article] = 1
         } else {
-            compteurs[mot]++
+            compteurs[article]++
         }
     }
-    return compteurs
+    let resultat = ""
+    for (const article in compteurs) {
+        resultat += `Article ${article} : ${compteurs[article]} exemplaire${compteurs[article] > 1 ? "s" : ""}, `
+    }
+    return resultat
 }
 
 console.log(panier)
+console.log(afficherQuantites(panier))
 retierDuPanier(101)
-ajouterAuPanier(200)
 console.log(panier)
-ajouterAuPanier(44)
-console.log(aficherQuantites(panier))
+console.log(afficherQuantites(panier))
+ajouterAuPanier(123)
+console.log(afficherQuantites(panier))
