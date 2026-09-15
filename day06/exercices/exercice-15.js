@@ -16,4 +16,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let json = '{"id":1, "titre":"Apprendre le JS", "vu":false}';
+let objet = JSON.parse(json);
+objet.vu = true;
+let nouveauJson = JSON.stringify(objet);
+console.log(nouveauJson);
