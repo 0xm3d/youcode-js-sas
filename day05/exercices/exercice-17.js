@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function chiffrerCesar(texte, decalage){
+let next = ""
+    for(let i = 0; i < texte.length; i++){
+        next += String.fromCharCode(texte.charCodeAt(i) + decalage)
+    }
+    return next
+}
+
+console.log(chiffrerCesar("ABCD", 4));
