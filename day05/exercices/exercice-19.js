@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function verifierPlaque(plaque) {
+    let regex = /^(\d{4}-[A-Z]-\d{2}|\d{5}-[A-Z]{2}-\d)$/;
+    return regex.test(plaque);
+}
+console.log(verifierPlaque("1234-A-56"));
+console.log(verifierPlaque("12345-AB-6"));
+console.log(verifierPlaque("1234-AB-56"));
+console.log(verifierPlaque("12345-A-6"));
+
