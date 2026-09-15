@@ -30,6 +30,6 @@ function binarySearch(array, target) {
       end = middle - 1;
     }
   }
-  return -1;
+  return `the number u provided doesn't exist in the array`;
 }
 console.log(binarySearch(numbers, 45));
