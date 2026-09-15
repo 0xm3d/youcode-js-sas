@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !"
+let temp = tweet.split(" ")
+let arr = []
+for(let i = 0; i < temp.length; i++) {
+    if (temp[i][0] == "#")
+        arr.push(temp[i])
+}
+console.log(arr)
+
