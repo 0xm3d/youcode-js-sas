@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const user = {
+    name: "Mohamed Bouhadi",
+    age: 23,
+    email: "chrollo@med.me",
+    phone: "1234567890"
+}
+const arr = Object.values(user)
+console.log(arr)

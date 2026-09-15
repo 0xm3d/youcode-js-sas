@@ -14,4 +14,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const players = [
+    { nom: "Omar", score: 13 },
+    { nom: "Riad", score: 10 },
+    { nom: "Med", score: 19 },
+    { nom: "Walid", score: 9 },
+]
+function winners(list) {
+    let winners = [];
+    for (let player of list) {
+        if (player.score >= 10) {
+            winners.push(player);
+        }
+    }
+
+    return winners;
+}
+
+console.log(winners(players));

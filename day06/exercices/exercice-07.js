@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const books = [
+    {
+        titre: "Crime and Punishment",
+        auter: "Fyodor Dostoevsky"
+    },
+    {
+        titre: "The metamorphosis",
+        auter: "Franz Kafka"
+    },
+    {
+        titre: "Fahrenheit 451",
+        auter: "Ray Bradbury"
+    }
+]
+console.log(books[1].titre)
