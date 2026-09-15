@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const compteBancaire = {
+    solde: 999,
+    deposer(montant) {
+        this.solde += montant
+    }
+}
+compteBancaire.deposer(1)
+
+console.log(compteBancaire.solde)
