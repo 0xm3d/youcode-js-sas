@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function wordInStr(phrase) {
+    const words = phrase.split(/\s+/)
+    let count = words.length
+    return count
+}
+console.log(wordInStr("Attention aux                 espaces multiples !"))
+ 
