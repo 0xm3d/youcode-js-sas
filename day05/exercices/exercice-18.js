@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function counter(paragraphe) {
+    let counter = 0;
+    for(let i = 0; i < paragraphe.length; i++) {
+        if (paragraphe[i] === "e" || paragraphe[i] === "E")
+            counter +=1
+    }
+    return `the letter 'e' appears ${counter} in the given paragraph`
+}
+let paragraph = "We don't read and write poetry because it's cute. We read and write poetry because we are members of the human race."
+console.log(counter(paragraph))
