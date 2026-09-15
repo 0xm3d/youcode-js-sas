@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let phrase = "Bonjour le monde"
+let arr = phrase.split(" ")
+console.log(`${arr[2]} ${arr[1]} ${arr[0]}`)
