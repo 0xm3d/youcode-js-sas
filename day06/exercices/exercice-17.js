@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const produits = [
+  { article: "PC", prix: "1500$" },
+  { article: "Souris", prix: "25$" }
+]
+function convertirPrix(produits) {
+  produits.forEach(produit => {
+    produit.prix = Number(produit.prix.replace("$", ""))
+  })
+  return produits
+}
+convertirPrix(produits)
+console.log(produits)

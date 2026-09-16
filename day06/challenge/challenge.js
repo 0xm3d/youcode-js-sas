@@ -21,3 +21,35 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+const utilisateurs = [];
+function ajouterUtilisateur(nom, email) {
+    const utilisateur = {
+        id: utilisateurs.length + 1,
+        nom: nom,
+        email: email
+    };
+
+    utilisateurs.push(utilisateur);
+}
+function trouverParEmail(email) {
+    return utilisateurs.find(utilisateur => utilisateur.email === email);
+}
+function supprimerParId(id) {
+    const index = utilisateurs.findIndex(utilisateur => utilisateur.id === id);
+
+    if (index !== -1) {
+        utilisateurs.splice(index, 1);
+    }
+}
+function afficherAnnuaire() {
+    utilisateurs.forEach(utilisateur => {
+        console.log(`ID: ${utilisateur.id} | Nom: ${utilisateur.nom} | Email: ${utilisateur.email}`);
+    });
+}
+ajouterUtilisateur("Mohamed", "mohamed@gmail.com");
+ajouterUtilisateur("chrollo", "chrollo@gmail.com");
+ajouterUtilisateur("Yassine", "med@gmail.com");
+console.log(trouverParEmail("chrollo@gmail.com"));
+supprimerParId(1);
+afficherAnnuaire();
